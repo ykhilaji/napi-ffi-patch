@@ -82,7 +82,7 @@
   ],
   "license": "MIT",
   "main": "./lib/ffi",
-  "name": "ffi-napi",
+  "name": "ffi-napi-patch",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/node-ffi-napi/node-ffi-napi.git"

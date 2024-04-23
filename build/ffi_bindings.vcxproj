@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{AF19351F-3654-E329-5043-506C0A034BCC}</ProjectGuid>
+    <ProjectGuid>{668A01CB-139F-03B0-618F-F450693F5C33}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>ffi_bindings</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
@@ -47,7 +47,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\include\node;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\src;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\deps\openssl\config;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\deps\openssl\openssl\include;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\deps\uv\include;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\deps\zlib;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\deps\v8\include;C:\Users\macbook\Desktop\coliship_plugin\node_modules\ffi-napi\node_modules\node-addon-api;C:\Users\macbook\Desktop\coliship_plugin\node_modules\get-uv-event-loop-napi-h\include;C:\Users\macbook\Desktop\coliship_plugin\node_modules\get-symbol-from-current-process-h\include;C:\Users\macbook\Desktop\coliship_plugin\node_modules\ref-napi\include;..\deps\libffi\include;..\deps\libffi\config\win\ia32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\include\node;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\src;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\deps\openssl\config;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\deps\openssl\openssl\include;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\deps\uv\include;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\deps\zlib;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\deps\v8\include;C:\Users\macbook\Desktop\sources\ffi-napi-patch\node_modules\node-addon-api;C:\Users\macbook\Desktop\sources\ffi-napi-patch\node_modules\get-uv-event-loop-napi-h\include;C:\Users\macbook\Desktop\sources\ffi-napi-patch\node_modules\get-symbol-from-current-process-h\include;C:\Users\macbook\Desktop\sources\ffi-napi-patch\node_modules\ref-napi\include;..\deps\libffi\include;..\deps\libffi\config\win\ia32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <BufferSecurityCheck>true</BufferSecurityCheck>
       <CompileAsWinRT>false</CompileAsWinRT>
@@ -77,13 +77,13 @@
       <TargetMachine>MachineX86</TargetMachine>
     </Link>
     <ResourceCompile>
-      <AdditionalIncludeDirectories>C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\include\node;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\src;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\deps\openssl\config;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\deps\openssl\openssl\include;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\deps\uv\include;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\deps\zlib;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\deps\v8\include;C:\Users\macbook\Desktop\coliship_plugin\node_modules\ffi-napi\node_modules\node-addon-api;C:\Users\macbook\Desktop\coliship_plugin\node_modules\get-uv-event-loop-napi-h\include;C:\Users\macbook\Desktop\coliship_plugin\node_modules\get-symbol-from-current-process-h\include;C:\Users\macbook\Desktop\coliship_plugin\node_modules\ref-napi\include;..\deps\libffi\include;..\deps\libffi\config\win\ia32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\include\node;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\src;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\deps\openssl\config;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\deps\openssl\openssl\include;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\deps\uv\include;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\deps\zlib;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\deps\v8\include;C:\Users\macbook\Desktop\sources\ffi-napi-patch\node_modules\node-addon-api;C:\Users\macbook\Desktop\sources\ffi-napi-patch\node_modules\get-uv-event-loop-napi-h\include;C:\Users\macbook\Desktop\sources\ffi-napi-patch\node_modules\get-symbol-from-current-process-h\include;C:\Users\macbook\Desktop\sources\ffi-napi-patch\node_modules\ref-napi\include;..\deps\libffi\include;..\deps\libffi\config\win\ia32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=ffi_bindings;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;V8_DEPRECATION_WARNINGS;V8_IMMINENT_DEPRECATION_WARNINGS;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;OPENSSL_NO_PINSHARED;OPENSSL_THREADS;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;DEBUG;_DEBUG;V8_ENABLE_CHECKS;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\include\node;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\src;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\deps\openssl\config;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\deps\openssl\openssl\include;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\deps\uv\include;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\deps\zlib;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\deps\v8\include;C:\Users\macbook\Desktop\coliship_plugin\node_modules\ffi-napi\node_modules\node-addon-api;C:\Users\macbook\Desktop\coliship_plugin\node_modules\get-uv-event-loop-napi-h\include;C:\Users\macbook\Desktop\coliship_plugin\node_modules\get-symbol-from-current-process-h\include;C:\Users\macbook\Desktop\coliship_plugin\node_modules\ref-napi\include;..\deps\libffi\include;..\deps\libffi\config\win\ia32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\include\node;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\src;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\deps\openssl\config;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\deps\openssl\openssl\include;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\deps\uv\include;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\deps\zlib;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\deps\v8\include;C:\Users\macbook\Desktop\sources\ffi-napi-patch\node_modules\node-addon-api;C:\Users\macbook\Desktop\sources\ffi-napi-patch\node_modules\get-uv-event-loop-napi-h\include;C:\Users\macbook\Desktop\sources\ffi-napi-patch\node_modules\get-symbol-from-current-process-h\include;C:\Users\macbook\Desktop\sources\ffi-napi-patch\node_modules\ref-napi\include;..\deps\libffi\include;..\deps\libffi\config\win\ia32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <BufferSecurityCheck>true</BufferSecurityCheck>
       <CompileAsWinRT>false</CompileAsWinRT>
       <DebugInformationFormat>OldStyle</DebugInformationFormat>
@@ -116,7 +116,7 @@
       <TargetMachine>MachineX86</TargetMachine>
     </Link>
     <ResourceCompile>
-      <AdditionalIncludeDirectories>C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\include\node;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\src;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\deps\openssl\config;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\deps\openssl\openssl\include;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\deps\uv\include;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\deps\zlib;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\deps\v8\include;C:\Users\macbook\Desktop\coliship_plugin\node_modules\ffi-napi\node_modules\node-addon-api;C:\Users\macbook\Desktop\coliship_plugin\node_modules\get-uv-event-loop-napi-h\include;C:\Users\macbook\Desktop\coliship_plugin\node_modules\get-symbol-from-current-process-h\include;C:\Users\macbook\Desktop\coliship_plugin\node_modules\ref-napi\include;..\deps\libffi\include;..\deps\libffi\config\win\ia32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\include\node;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\src;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\deps\openssl\config;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\deps\openssl\openssl\include;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\deps\uv\include;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\deps\zlib;C:\Users\macbook\AppData\Local\node-gyp\Cache\14.21.3\deps\v8\include;C:\Users\macbook\Desktop\sources\ffi-napi-patch\node_modules\node-addon-api;C:\Users\macbook\Desktop\sources\ffi-napi-patch\node_modules\get-uv-event-loop-napi-h\include;C:\Users\macbook\Desktop\sources\ffi-napi-patch\node_modules\get-symbol-from-current-process-h\include;C:\Users\macbook\Desktop\sources\ffi-napi-patch\node_modules\ref-napi\include;..\deps\libffi\include;..\deps\libffi\config\win\ia32;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=ffi_bindings;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;V8_DEPRECATION_WARNINGS;V8_IMMINENT_DEPRECATION_WARNINGS;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;OPENSSL_NO_PINSHARED;OPENSSL_THREADS;BUILDING_NODE_EXTENSION;HOST_BINARY=&quot;node.exe&quot;;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ResourceCompile>
   </ItemDefinitionGroup>
@@ -132,11 +132,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="node_modules\node-addon-api\nothing.vcxproj">
-      <Project>{FA502F31-AE15-A177-EE35-98F8F6D70F11}</Project>
+      <Project>{2DFAE209-4378-DDD0-F932-20B99FDB02F3}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="deps\libffi\ffi.vcxproj">
-      <Project>{A856C0BF-0762-E61F-F687-D0BDC591A7D5}</Project>
+      <Project>{2DA189C8-9A5B-6694-3BDA-12B49C24C388}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

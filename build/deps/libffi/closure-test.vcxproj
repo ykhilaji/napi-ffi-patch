@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{AF385EFF-99FD-7EB9-F09B-6A078CC4446C}</ProjectGuid>
+    <ProjectGuid>{68C90396-3D14-A733-0BB2-A56446C19B8D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>closure-test</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
@@ -126,7 +126,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="ffi.vcxproj">
-      <Project>{A856C0BF-0762-E61F-F687-D0BDC591A7D5}</Project>
+      <Project>{2DA189C8-9A5B-6694-3BDA-12B49C24C388}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>

@@ -1,4 +1,4 @@
 ^..\..\..\deps\libffi\src\x86\sysv_intel.preasm
-C:\Users\macbook\Desktop\coliship_plugin\node_modules\ffi-napi\build\deps\libffi\Release\obj\ffi\sysv_intel.asm
+C:\Users\macbook\Desktop\sources\ffi-napi-patch\build\deps\libffi\Release\obj\ffi\sysv_intel.asm
 ^Release\obj\ffi\\sysv_intel.asm
-C:\Users\macbook\Desktop\coliship_plugin\node_modules\ffi-napi\build\deps\libffi\Release\obj\ffi\sysv_intel.obj
+C:\Users\macbook\Desktop\sources\ffi-napi-patch\build\deps\libffi\Release\obj\ffi\sysv_intel.obj

@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{A856C0BF-0762-E61F-F687-D0BDC591A7D5}</ProjectGuid>
+    <ProjectGuid>{2DA189C8-9A5B-6694-3BDA-12B49C24C388}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>ffi</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>

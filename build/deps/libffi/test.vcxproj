@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{8A61E802-EBB0-7E5D-C40C-43D2277219E3}</ProjectGuid>
+    <ProjectGuid>{1EADF3E4-94B5-21DE-01B2-BA85273ED221}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>test</RootNamespace>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
@@ -126,7 +126,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="ffi.vcxproj">
-      <Project>{A856C0BF-0762-E61F-F687-D0BDC591A7D5}</Project>
+      <Project>{2DA189C8-9A5B-6694-3BDA-12B49C24C388}</Project>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>
